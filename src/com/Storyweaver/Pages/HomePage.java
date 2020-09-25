@@ -38,9 +38,9 @@ public class HomePage extends BasePage {
 	WebElement MyBookshelf;
 	@FindBy(className="pb-reading-list-card")
 	WebElement Bookshelf_List;
-    @FindBy(xpath="//div[@title='Offline Library']")
-    WebElement Offline_Library;
-    @FindBy(xpath="//span[text()='Create']")
+        @FindBy(xpath="//div[@title='Offline Library']")
+        WebElement Offline_Library;
+        @FindBy(xpath="//span[text()='Create']")
 	WebElement Create_Button;
 	
 	public boolean is_Home_Page(String BaseURL){ 
