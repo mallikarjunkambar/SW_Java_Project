@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="158678" started-at="2020-09-25T05:09:38Z" finished-at="2020-09-25T05:12:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="158678" started-at="2020-09-25T05:09:38Z" finished-at="2020-09-25T05:12:17Z">
+      <class name="com.Storyweaver.Testcases.TestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Storyweaver.Testcases.TestCases@28f67ac7]" name="setUp" is-config="true" duration-ms="32117" started-at="2020-09-25T10:39:38Z" finished-at="2020-09-25T10:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="home_Page()[pri:1, instance:com.Storyweaver.Testcases.TestCases@28f67ac7]" name="home_Page" duration-ms="2572" started-at="2020-09-25T10:40:10Z" finished-at="2020-09-25T10:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_Page -->
+        <test-method status="PASS" signature="login_Page()[pri:2, instance:com.Storyweaver.Testcases.TestCases@28f67ac7]" name="login_Page" duration-ms="17841" started-at="2020-09-25T10:40:13Z" finished-at="2020-09-25T10:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Page -->
+        <test-method status="PASS" signature="create_Page()[pri:7, instance:com.Storyweaver.Testcases.TestCases@28f67ac7]" name="create_Page" duration-ms="106116" started-at="2020-09-25T10:40:31Z" finished-at="2020-09-25T10:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Page -->
+      </class> <!-- com.Storyweaver.Testcases.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

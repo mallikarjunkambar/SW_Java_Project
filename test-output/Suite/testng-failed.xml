@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test1(failed)" parallel="classes">
+    <classes>
+      <class name="Parallel">
+        <methods>
+          <include name="mtitleValidation"/>
+          <include name="loginPage"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- Parallel -->
+      <class name="Parellel">
+        <methods>
+          <include name="loginPage"/>
+          <include name="loginPage1"/>
+        </methods>
+      </class> <!-- Parellel -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
